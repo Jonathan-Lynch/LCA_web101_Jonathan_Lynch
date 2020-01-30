@@ -1,0 +1,11 @@
+h1 {
+    color: yellow;
+}
+
+.class {
+
+    width: 30%;
+    height: 80%;
+    margin: 3% 10%;
+    grid-template-columns: 30% 40% 30%;
+}
