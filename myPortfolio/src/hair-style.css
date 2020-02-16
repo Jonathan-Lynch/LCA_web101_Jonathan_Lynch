@@ -1,0 +1,67 @@
+body {
+
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 0.5fr 2fr 2fr;
+}
+
+header {
+
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+h1 {
+
+    font-size: 30px;
+}
+
+section {
+
+    grid-row: 1;
+    grid-column: 2;
+}
+
+div {
+
+    float: left;
+    margin-top: 15%;
+    margin-left: 3%;
+}
+
+.nav {
+
+    padding: 3%;
+    font: icon;
+}
+
+main {
+    grid-row: 2;
+    grid-column: span 3;
+    background-image: url("img/gandalf.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    back
+}
+
+footer {
+
+    grid-row: 3;
+    grid-column: span 3;
+    float: left;
+}
+
+.footer {
+
+    margin-left: 2%;
+    padding: 1%;
+}
+
+h2 {
+
+    color: white;
+    font-size: 50px;
+    margin-left: 70%;
+}
