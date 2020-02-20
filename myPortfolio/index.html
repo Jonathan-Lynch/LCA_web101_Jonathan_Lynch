@@ -5,35 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/reset.css"/>
-  <link rel="stylesheet" href="../Styles/style.css">
+  <link rel="stylesheet" href="./Styles/animate.css">
+  <link rel="stylesheet" href="./Styles/style.css">
+
   <title>My Portfolio</title>
+
 </head>
   <body>
-  <!-- This is a what comment line looks like in HTML -->
-  <!-- The rest of your code goes between here... -->
     <header>
     
       <a href=./index.html>
-        <img src="./src/img/Logo-Home-2.png" class="logo" alt="fake logo">    
+        <img src="./img/Logo-Home-2.png" class="logo" alt="fake logo">    
       </a>
-      <div class="flex">
-        <nav>   
-          <a href="./src/resume.html" class="has-border">Resume</a>
-          <a class="has-border">About Me</a>
-          <a href="./src/blog.html" class="has-border">My Blog</a>
-          <a class="has-border">Contact Me</a>
-      </nav>
-    </div>
-    </header>
+
+       <div class="flex">
+         <nav>   
+          <a href="./src/resume.html" class="animated infinite pulse delay-2s has-border">Resume</a>
+          <a class="animated infinite pulse delay-2s has-border">About Me</a>
+          <a href="./src/blog.html" class="animated infinite pulse delay-2s has-border">My Blog</a>
+          <a class="animated infinite pulse delay-2s has-border">Contact Me</a>
+         </nav>
+         </div>
+     </header>
+
 <hr>
+
     <main>
 
-        <img src="./src/img/profile-pic.jpg" id="profile-pic" alt="Headshot of Me">   
-    <h1>Jonathan Charles Lynch</h1>
-    <h2>Student of Web Development.</h2>
-    <button id="portfolio" ><a href="./src/portfolio.html">Portfolio</a></button>
+      <img src="./img/profile-pic.jpg" id="profile-pic" alt="Headshot of Me"> 
+      
+      <h1 class="animated bounce">Jonathan Charles Lynch</h1>
+      
+      <h2>Student of Web Development.</h2>
+
+      <button id="portfolio" ><a href="./src/portfolio.html">Portfolio</a></button>
 
     </main>
-  <!-- ...and here. -->
+
   </body>
 </html>
