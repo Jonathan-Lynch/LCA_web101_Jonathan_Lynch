@@ -42,7 +42,7 @@ div {
 main {
     grid-row: 2;
     grid-column: span 3;
-    background-image: url("img/gandalf.jpg");
+    background-image: url("../img/gandalf.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -83,7 +83,7 @@ h2 {
 
     main {
 
-        background-image: url("img/gandalf.jpg");
+        background-image: url("../img/gandalf.jpg");
         background-size: 100% 20%;
     }
 
@@ -126,7 +126,7 @@ h2 {
         main {
             grid-row: 2;
             grid-column: span 3;
-            background-image: url("img/gandalf.jpg");
+            background-image: url("../img/gandalf.jpg");
             background-repeat: no-repeat;
             background-size: 100% 100%;
         }
