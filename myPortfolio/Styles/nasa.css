@@ -1,10 +1,73 @@
 body {
-
-    background-color: blue;
+    width: 850px;
+    margin: 0 auto;
 }
 
-h1 {
-
-    color: red;
-    font-size: 100px;
+main {  
+    width: 850px;
+    height: 450px;
+    background-image: url(../img/Galaxy.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    font-family: 'Anton';
+    font-size: 60px;
 }
+
+div {
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: gainsboro;
+    font-size: 25px;
+}
+
+article {
+    background-color: gainsboro;  
+}
+
+.title {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    font
+}
+
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 200px;
+    
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+  }
+  
+  .col1    { flex: 1 25%}
+  .col2    { flex: 2 25% }
+  .col3    { flex: 3 25% }
+
+  .flex-item {
+    
+    background: gainsboro;
+    padding: 10px;
+    width: 100px;
+  
+    
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
