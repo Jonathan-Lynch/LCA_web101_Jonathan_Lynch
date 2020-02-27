@@ -13,6 +13,8 @@ strong {
     font-weight: bold;
 }
 
+
+
 header {
     background-color: black;
     grid-row: span 5;
@@ -83,3 +85,7 @@ nav {
           margin-top: 10%;
           width: 70%;
       }
+
+
+
+      
