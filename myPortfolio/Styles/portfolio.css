@@ -137,3 +137,19 @@ hr {
      grid-row: 1;
      grid-column: 2;
  }
+
+img {
+    border: solid black 1px;
+}
+
+ @media (min-width : 320px) {
+
+  }
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+ }
