@@ -31,7 +31,21 @@
         const addNums = (a, b) => {
             // your code here
         }
+        
+        var num1 = 1;
+        var num2 = 2;
+        
+        document.write(num1 + num2 + ' ');
+        
 
+        let i=0
+        while (i < 5) {
+            document.write(i);
+            i++;
+        } 
+
+
+        
         addNums(3, 8) // => 11
     </script>
 
@@ -44,9 +58,16 @@
         const exampleArr = [1, 0, 9, 18, 3, 0, 0, 9, 70, 44, 0]
 
         const removeZeros = (arr) => {
-        // your code here
+            for(i = 0; i<arr.length; i++) {
+                if(arr[i] != 0) {
+                    document.write(arr[i] + ' ')
+                }
+            }
+            //document.write(exampleArr);
         }
 
+        //document.write(exampleArr);
+        
         removeZeros(exampleArr) // => [1, 9, 18, 3, 9, 70, 44]
     </script>
 
@@ -57,13 +78,19 @@
     <p>Given the array of numbers: [2, 3, 5, 6, 8] square each number, save them to a new array and return the sum of the new array.</p>
 
     <script>
-        const myArr =[2, 3, 5, 6, 8]
+        const myArr = [2, 3, 5, 6, 8]
 
         const sumSquared = (arr) => {
-            // your code here
-        }
+            for(i = 0; i<arr.length; i++) {
+                document.write( Math.pow(arr[i], 2) + ' ');
+            }
 
-        sumSquared(myArr) // => 136
+        }
+        
+        sumSquared(myArr ) // => 136
+        newArr = [4, 5];
+        sumSquared(newArr);
+
     </script>
 
 </body>
