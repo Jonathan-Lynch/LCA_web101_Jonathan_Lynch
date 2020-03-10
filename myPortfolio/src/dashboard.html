@@ -1,76 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Styles/reset.css">
-    <link rel="stylesheet" href="../Styles/dashboard-style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Styles/reset.css">
+  <link rel="stylesheet" href="../Styles/dashboard-style.css">
+
+
+  <title>Document</title>
 </head>
+
 <body>
-    <main>
+  <main>
     <h1>Hello Jonathan!</h1>
-    </main> 
-    
-    
-    <h4 class="calendar">02/16/2020</h4>
+  </main>
 
-    <div class="calculator">
 
-        <input type="text" class="calculator-screen" value="0" disabled />
-      
-        <div class="calculator-keys">
-      
-          <button type="button" class="operator" value="+">+</button>
-          <button type="button" class="operator" value="-">-</button>
-          <button type="button" class="operator" value="*">&times;</button>
-          <button type="button" class="operator" value="/">&divide;</button>
-      
-          <button type="button" value="6">6</button>
-          <button type="button" value="7">7</button>
-          <button type="button" value="8">8</button>
-      
-      
-          <button type="button" value="9">9</button>
-          <button type="button" value="2">2</button>
-          <button type="button" value="3">3</button>
-      
-      
-          <button type="button" value="4">4</button>
-          <button type="button" value="5">5</button>
-          <button type="button" value="1">1</button>
-      
-      
-          <button type="button" value="0">0</button>
-          <button type="button" class="decimal" value=".">.</button>
-          <button type="button" class="all-clear" value="all-clear">AC</button>
-      
-          <button type="button" class="equal-sign" value="=">=</button>
+  <h4 class="calendar">02/16/2020</h4>
 
-        </div>
+  <div class="calculator">
+
+    <input type="text" class="calculator-screen" value="0" disabled />
+
+    <div class="calculator-keys">
+
+      <button type="button" class="operator" value="+">+</button>
+      <button type="button" class="operator" value="-">-</button>
+      <button type="button" class="operator" value="*">&times;</button>
+      <button type="button" class="operator" value="/">&divide;</button>
+
+      <button type="button" value="6">6</button>
+      <button type="button" value="7">7</button>
+      <button type="button" value="8">8</button>
+
+
+      <button type="button" value="9">9</button>
+      <button type="button" value="2">2</button>
+      <button type="button" value="3">3</button>
+
+
+      <button type="button" value="4">4</button>
+      <button type="button" value="5">5</button>
+      <button type="button" value="1">1</button>
+
+
+      <button type="button" value="0">0</button>
+      <button type="button" class="decimal" value=".">.</button>
+      <button type="button" class="all-clear" value="all-clear">AC</button>
+
+      <button type="button" class="equal-sign" value="=">=</button>
+
     </div>
+  </div>
 
 
-    <div class="weather">
-    <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="original" >NEW YORK WEATHER</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
-    </div>
+  <!-- <div class="weather">
+    <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK"
+      data-label_2="WEATHER" data-theme="original">NEW YORK WEATHER</a>
+
+  </div> -->
 
 
-    <div id="TDL" class="list">
+  <!-- <div id="TDL" class="list">
         <h2>To Do List</h2>
         <input type="text">
         <span onclick="newElement()" class="addBtn">Add</span>
-      </div>
-      
-      
+      </div> -->
 
-     <div class="clock">
-        <h3>clock</h3>
-      </div>
+  <div id="list_section">
+    <h1 id="header">To-do list</h1>
+    <ul>
+      
+    </ul>
 
-              
+    <form id="newItemForm">
+      <input type="text" id="itemField" placeholder="Item" />
+      <input type="submit" id="add" value="add" />
+    </form>
+  </div>
+
+
+  <div class="clock">
+    <h3>clock</h3>
+  </div>
+
+  <script src="../Js/jquery.js"></script>
+  <script src="../Js/Dashboard.js"></script>
+
+  <!-- <script src="https://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="
+    crossorigin="anonymous"></script> -->
+  
+  <!-- <script>
+    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+  </script> -->
+
+
 </body>
+
 </html>
