@@ -16,9 +16,6 @@
     <h1>Hello Jonathan!</h1>
   </main>
 
-
-  <h4 class="calendar">02/16/2020</h4>
-
   <div class="calculator">
 
     <input type="text" class="calculator-screen" value="0" disabled />
@@ -61,43 +58,38 @@
 
   </div>
 
+  <div id="TDL">
+    <div id="list_section">
+      <h1 id="header">To-do list</h1>
+      <ul>
 
-  <!-- <div id="TDL" class="list">
-        <h2>To Do List</h2>
-        <input type="text">
-        <span onclick="newElement()" class="addBtn">Add</span>
-      </div> -->
+      </ul>
 
-<div id="TDL">
-  <div id="list_section">
-    <h1 id="header">To-do list</h1>
-    <ul>
-      
-    </ul>
-
-    <form id="newItemForm">
-      <input type="text" id="itemField" placeholder="Item" />
-      <input type="submit" id="add" value="add" />
-    </form>
+      <form id="newItemForm">
+        <input type="text" id="itemField" placeholder="Item" />
+        <input type="submit" id="add" value="add" />
+      </form>
+    </div>
   </div>
-</div>
 
   <div class="clock">
     <h3>1:00pm</h3>
   </div>
 
+  <h4>3/14/2020</h4>
+
   <div class="location">
-  <button onclick="getLocation()">Get Location!</button>
-  <p id="my-coordinates"></p>
-</div>
+    <button class="Loc" onclick="getLocation()">Get Location!</button>
+    <p id="my-coordinates"></p>
+  </div>
 
   <script src="../Js/jquery.js"></script>
   <script src="../Js/Dashboard.js"></script>
 
   <script src="https://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="
     crossorigin="anonymous"></script>
-  
-   <script>
+
+  <script>
     !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
   </script>
 
